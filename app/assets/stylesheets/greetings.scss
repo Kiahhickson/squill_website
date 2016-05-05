@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+body {
+ font-family: 'Cabin', sans-serif;
+}
+/*.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+  background-color: white;
+  text-align: center;
+}*/
+
+.jumbotron {
+  width: 1434px;
+  height: 690px;
+  color: white;
+  background-color: purple;
+  text-align: left;
+  margin-bottom: 0px;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(bottom right, indigo, purple); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top left, indigo, purple); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top left, indigo, purple); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top left, indigo , purple); /* Standard syntax (must be last) */
+}
+
+.jumbotron > h1{
+  padding-left: 150px;
+  padding-top: 150px;
+}
+
+.jumbotron > h2 {
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+input {
+  margin-left: 150px;
+  margin-top: 30px;
+  color: indigo;
+  height: 45px;
+  width: 300px;
+  border-radius: 6px;
+
+}
+
+
+.about {
+ width: 1434px;
+height: 380px;
+}
+
+div.col-md-3 > p {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+div.row {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.reserve {
+  width: 1434px;
+  height: 400px;
+  background-color: #EEE9E9;
+  text-align: center;
+  padding-top: 50px;
+  color: #543E8A;
+}
+
+
+.queue > h2 {
+  width: 1434px;
+  height: 200px;
+  background-color: #E5E5E5;
+  color: white;
+  text-align: center;
+}
