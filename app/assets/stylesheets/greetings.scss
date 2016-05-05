@@ -27,12 +27,31 @@ body {
 
 .jumbotron > h1{
   padding-left: 150px;
-  padding-top: 150px;
+  padding-top: 70px;
+  font-size: 80px;
 }
 
 .jumbotron > h2 {
   padding-left: 150px;
-  padding-top: 30px;
+  padding-top: 10px;
+}
+
+.logo {
+  margin-left: 115px;
+
+}
+
+.btn {
+margin-left: 150px;
+margin-top: 15px;
+font-size: 20px;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+.btn-primary {
+  margin-left: 0px;
+
 }
 
 input {
@@ -47,8 +66,9 @@ input {
 
 
 .about {
- width: 1434px;
+width: 1434px;
 height: 380px;
+
 }
 
 div.col-md-3 > p {
